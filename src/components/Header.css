@@ -1,0 +1,49 @@
+/* Fixed header bar */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;              /* adjust height as you like */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Logo/title on the left */
+  .header .logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Nav list on the right */
+  .header nav {
+    margin-left: auto;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin-left: 20px;
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .header nav ul li a:hover {
+    color: #0070f3;
+  }
+  

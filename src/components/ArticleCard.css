@@ -1,0 +1,49 @@
+.article-card {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .article-image {
+    flex: 1;
+    min-width: 300px;
+    /* give it a height so you actually see it */
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .article-content {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .article-category {
+    font-size: 0.875rem;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .article-title {
+    font-size: 1.5rem;
+    margin: 0 0 12px;
+  }
+  .article-excerpt {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  .article-link {
+    align-self: flex-start;
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+  }
+  .article-link:hover {
+    color: #005bb5;
+  }
+  
